@@ -22,4 +22,4 @@ StellarRemit is an ongoing open-source Stellar Testnet MVP. This roadmap describ
 7. Key custody review and secure wallet management
 8. Production/mainnet support only after a separate security, compliance, and operational review
 
-Each item should be developed through a GitHub issue with explicit scope, testnet safeguards, and acceptance criteria. See [docs/issues/](docs/issues/) for starter descriptions.
+Each item should be developed through a GitHub Issue with explicit scope, testnet safeguards, and acceptance criteria. Use the repository's issue templates to propose work, then submit a focused pull request.

@@ -101,7 +101,7 @@ Secret keys must never be logged, committed, or sent to the browser in productio
 
 ## Roadmap and Open Work
 
-The project intentionally stops at a testnet foundation. Authentication, persistence, complete payment confirmation, advanced history, QR enhancements, comprehensive integration testing, and mainnet support are not implemented. See [ROADMAP.md](ROADMAP.md) and the [GitHub-ready issue briefs](docs/issues/) before starting work.
+The project intentionally stops at a testnet foundation. Authentication, persistence, complete payment confirmation, advanced history, QR enhancements, comprehensive integration testing, and mainnet support are not implemented. See [ROADMAP.md](ROADMAP.md) and open a GitHub Issue before starting work. Contributions should arrive through focused pull requests.
 
 ## Contributing and License
 
