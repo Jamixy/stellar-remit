@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@stellar-remit/stellar": ["packages/stellar/src/index.ts"],
+      "@stellar-remit/validation": ["packages/validation/src/index.ts"],
+      "@stellar-remit/types": ["packages/types/src/index.ts"]
+    }
+  }
+}

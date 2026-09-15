@@ -1,0 +1,24 @@
+{
+  "name": "stellar-remit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Testnet-first cross-border remittance on Stellar.",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace @stellar-remit/web\" \"npm run dev --workspace @stellar-remit/api\"",
+    "build": "npm run build --workspace @stellar-remit/types && npm run build --workspace @stellar-remit/validation && npm run build --workspace @stellar-remit/stellar && npm run build --workspace @stellar-remit/api && npm run build --workspace @stellar-remit/web",
+    "typecheck": "npm run typecheck --workspaces",
+    "test": "npm run test --workspaces",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev --schema prisma/schema.prisma"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.2.1",
+    "@types/node": "^22.10.2",
+    "concurrently": "^9.1.2",
+    "prisma": "^6.2.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
